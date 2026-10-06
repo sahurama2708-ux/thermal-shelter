@@ -3,7 +3,7 @@ import { STORAGE_KEYS } from "../utils/constants";
 import type { AccessTokenOnly } from "../types/auth";
 import type { ApiEnvelope, ApiSuccess } from "../types/api";
 
-const baseURL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const baseURL = import.meta.env.VITE_API_URL || "https://thermal-shelter-4aj1.onrender.com";
 
 export const api = axios.create({
   baseURL,
