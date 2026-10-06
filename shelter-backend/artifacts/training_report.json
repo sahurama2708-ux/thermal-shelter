@@ -1,0 +1,35 @@
+{
+  "final_test_accuracy": 0.8845802919708029,
+  "best_k_climate_regimes": 8,
+  "climate_feature_order": [
+    "T2M",
+    "RH2M",
+    "WS10M",
+    "PRECTOTCORR",
+    "ALLSKY_SFC_SW_DWN"
+  ],
+  "nn_feature_order": [
+    "LATITUDE",
+    "LONGITUDE",
+    "T2M",
+    "RH2M",
+    "WS10M",
+    "PRECTOTCORR",
+    "ALLSKY_SFC_SW_DWN",
+    "MONTH",
+    "CLIMATE_REGIME",
+    "TEMP_HUMIDITY_INTERACTION",
+    "TEMP_WIND_INTERACTION",
+    "HUMIDITY_WIND_INTERACTION",
+    "HEAT_HUMIDITY_INDEX",
+    "HILL_STATION"
+  ],
+  "classes": [
+    "Cold",
+    "High-Solar",
+    "Hot-Dry",
+    "Hot-Humid",
+    "Moderate",
+    "Windy"
+  ]
+}
